@@ -4,11 +4,11 @@
 
 /* 版面設定 */
 
-
-background-color: 
-body{
-	background-color: #000;
-}
+body  {  background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_1280.jpg");  
+	background-color: #cccccc;  
+	backdrop-filter: brightness(150%);  
+	background-size: cover;  
+	backdrop-filter: blur(10px);}
 
 	/* 頁面標題設定 */
 	
@@ -20,8 +20,7 @@ body{
 		}
 	
 	a:hover{
-		color: #df4839
-	 text-decoration: none;
+		color: #df4839;
 		}
 		
 		/* area1 header */
@@ -50,11 +49,12 @@ body{
 
 
 /* area2 */
-  
+
 
 /* area3 chapter */
 
 h2{
+color: #ffffff;
 font-size: 30px
 }
 body{
