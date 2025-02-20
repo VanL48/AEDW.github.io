@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+
+/* 版面設定 */
+
+body  { 
+	background-color: #c1dbff;  
+	backdrop-filter: brightness(150%);  
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	backdrop-filter: blur(0px);
+	margin:0px;	
+	
+	}
+
+
+	/* 頁面標題設定 */
+	
+		
+		/* 連結顏色設定 */
+	
+	a {
+		color:#000000
+		}
+	
+	a:hover{
+		color: #df4839;
+		}
+		
+		/* area1 header */
+		
+		header {
+			font-size:150%; position: fixed;
+			top:0; left:0; right: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: left;
+			padding:1%;
+			background-color: #333a6c;
+			opacity: 0.9;
+			
+			}
+		
+		header img{
+			width:5%;height:5%; 
+			padding-bottom:10px; 
+			filter:saturate (8);
+		}
+	
+
+		@media (max-width:600px) {
+		
+			header {
+				font-size:15px; position: fixed;
+				top:0; left:0; right: 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: left;
+				padding:2%;
+				background-color: #333a6c;
+				opacity: 0.9;
+			
+				}
+
+				header img{
+					width:18%;
+					padding-bottom:-10px; 
+					filter: saturate (8);
+		}
+	}
+/* area2 */
+
+
+/* area3 chapter */
+
+h2{
+color: #ffffff;
+font-size: 30px
+}
+body{
+background-color: #c1dbff;
+}
+
+@media (max-width:600px) {
+	
+	h2{
+		color: #ffffff;
+		font-size: 30px
+		}
+		body{
+		background-color: #c1dbff;
+		}
+
+	li{
+
+		font-size: 25px	}
+	}
+
+
+/* RWD 手機版 */
