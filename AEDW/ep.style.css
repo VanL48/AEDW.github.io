@@ -6,15 +6,17 @@ body{
     
     /* 頁面標題設定 */
     img{
-        width:8%;
+        width:10%;
         padding-bottom:20px; 
-        filter: saturate (8);}
+        filter: saturate (8);
+        vertical-align:middle;}
 
     @media (max-width:600px){
         img{
         width:15%;
         padding-bottom:20px; 
-        filter: saturate (8);}
+        filter: saturate (8);
+        vertical-align:middle;}
     }
 
     
@@ -23,17 +25,32 @@ body{
     
         
     /* area1 header */
-    h1{
-    font-size:300%;
-    }
+
+    header {
+        font-size:150%; position: fixed;
+        top:0; left:0; right: 0;
+        align-items: left;
+        background-color: #333a6c;
+         }
+        
+     .header .text {
+			color:#ffffff;
+			display: inline-block;
+			vertical-align:middle;
+			font-size: 200%;
+		}
 
     @media (max-width:600px){h1{
         font-size:225%;
+        vertical-align:middle;
         }}
 
 
     /* area2 作者前言 */
-    
+
+    img{
+        width:5%;
+    }
     /* area3 內文 */
     
     p{
