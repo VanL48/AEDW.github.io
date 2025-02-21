@@ -75,7 +75,18 @@ body{
                 white-space: pre-line;}
             }        
   
-    
+            a {
+                color:#000000;
+                text-decoration: none;
+                    font-size: 100%	
+                }
+            
+            a:hover{
+                color: #df4839;
+                text-decoration: underline
+                }
+                
+
     
     
     /* RWD 手機版 */
