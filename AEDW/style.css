@@ -32,7 +32,7 @@ body  {
 		/* area1 header */
 		
 		header {
-			font-size:150%; position: fixed;
+			font-size:150%; 
 			top:0; left:0; right: 0;
 			display: flex;
 			justify-content: space-between;
@@ -41,7 +41,8 @@ body  {
 			background-color: #333a6c;
 		}
 		
-		img {vertical-align:middle;}
+		img {
+			vertical-align:middle;}
 
 		.header .text {
 			color:#ffffff;
