@@ -85,6 +85,23 @@ body{
         font-size: 150%;
         white-space: pre-line;}
 
+    button {
+        font-size:200%;
+        color: white;
+        border: none;
+        background-color:#8e98e2; /* Navy */
+    }
+
+    a {
+        color:#000000;
+        text-decoration: none;
+            font-size: 100%	
+        }
+    
+    a:hover{
+        color: #df4839;
+        text-decoration: underline
+        }
     
         @media (max-width:600px){
             p{
@@ -92,18 +109,9 @@ body{
                 white-space: pre-line;}
             }        
   
-            a {
-                color:#000000;
-                text-decoration: none;
-                    font-size: 100%	
-                }
-            
-            a:hover{
-                color: #df4839;
-                text-decoration: underline
-                }
+
                 
 
-    
+
     
     /* RWD 手機版 */
