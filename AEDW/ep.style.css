@@ -35,11 +35,11 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: left;
-        padding:0%;
+        padding:1%;
         background-color: #333a6c;
     }
     
-    img {
+   img{
         vertical-align:middle;}
 
     .header .text {
