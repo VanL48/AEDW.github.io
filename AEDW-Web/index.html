@@ -155,6 +155,28 @@
          position: relative;
          left: -15%; /* Moves the button DOWN */
         }
+
+ /* Makes image and text align in a row */
+ @media (max-width:600px) {
+            
+        p{
+            white-space: pre-line;
+            font-size: 100%;
+         }
+
+         .container {
+            max-width: 70%;
+            height: 610px;
+            padding: 5%;         
+            align-items: left;
+            background: linear-gradient(to right, #16153d, #00000000);
+        }
+        header img {
+            width: 10%; /* Adjust the size as needed */
+            height: auto;
+            margin-right: 15px; /* Add space between image and text */
+        }
+        }
     </style>
 </head>
 <body>
