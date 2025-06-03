@@ -36,7 +36,7 @@
         display: flex;
       }
       button {    
-        padding: 10px 20px; /* Increase padding for a larger button */
+        padding: 5px 15px; /* Increase padding for a larger button */
         font-size: 100%; /* Increase font size */
         border: none;
         background: #ebb436;
