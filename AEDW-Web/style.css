@@ -12,7 +12,7 @@
       margin: 0 auto;
       padding: 20px;
       border-radius: 8px;
-      background-color: #1e1d4f;
+      background-color: #1e1d4fc8;
     }
     header {
       display: flex; 
@@ -40,7 +40,7 @@
         font-size: 100%; /* Increase font size */
         border: none;
         background: #ebb436;
-        color: white;
+        color: rgb(0, 0, 0);
         border-radius: 4px;
         cursor: pointer;
         transition: background 0.3s ease;
